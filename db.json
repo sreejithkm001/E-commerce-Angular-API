@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "name": "Samsung M 14 5G ",
+      "price": "5500",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/n/l/galaxy-m14-5g-sm-m146b-samsung-original-imagzwssu4znnfag.jpeg?q=70&crop=false",
+      "id": 1
+    },
+    {
+      "name": "Apple iPhone 13 Pro Max",
+      "price": "50000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/r/5/-original-imagtc3kcmph6ax5.jpeg?q=70&crop=false",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "100000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/2/i/16-wf0055tx-gaming-laptop-hp-original-imagrwmbqhjauuer.jpeg?q=70&crop=false",
+      "id": 3
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/i/t/t/-original-imagzry3yrfp3fvq.jpeg?q=70&crop=false",
+      "id": 4
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 5
+    },
+    {
+      "name": "Truck",
+      "price": "1500",
+      "category": "Toys",
+      "color": "Red",
+      "description": "A toy for 5 year old child",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/shopsy-vehicle-pull-along/y/a/m/cargo-truck-star-toys-4-original-imagjfgfuhmg4den.jpeg?q=70&crop=false",
+      "id": 6
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 7
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": "40000",
+      "category": "Gaming",
+      "color": "White",
+      "description": "Next-gen gaming console by Sony",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/gamingconsole/z/b/w/-original-imagtk7vfbzqbjg6.jpeg?q=70&crop=false",
+      "id": 8
+    },
+    {
+      "name": "Dell XPS 15 Laptop",
+      "price": "2000",
+      "category": "Laptop",
+      "color": "Silver",
+      "description": "Powerful laptop for professionals",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/5/q/g15-gaming-laptop-gaming-laptop-dell-original-imagxf36wzgmkzbd.jpeg?q=70&crop=false",
+      "id": 9
+    },
+    {
+      "name": "Canon EOS R5 Camera",
+      "price": "4000",
+      "category": "Camera",
+      "color": "Black",
+      "description": "Professional mirrorless camera by Canon",
+      "image": "https://rukminim2.flixcart.com/image/416/416/l5fnhjk0/dslr-camera/d/w/j/eos-r7-32-5-r7-canon-original-imagg4y3dgbhfgy8.jpeg?q=70&crop=false",
+      "id": 10
+    },
+    {
+      "name": "Bose Noise Cancelling Headphones",
+      "price": "350",
+      "category": "Headphones",
+      "color": "Black",
+      "description": "Premium wireless headphones with noise cancellation",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/l/j/e/-original-imagnfufffaczakh.jpeg?q=70&crop=false",
+      "id": 11
+    },
+    {
+      "name": "Fitbit Versa 3 Smartwatch",
+      "price": "200",
+      "category": "Smartwatch",
+      "color": "Midnight Blue",
+      "description": "Fitness-focused smartwatch with built-in GPS",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/w/g/r/-original-imagxp8utj55gjnk.jpeg?q=70&crop=false",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "name": "SREEJITH  K M",
+      "email": "sreejithkm3010@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "SREEJITH  K M",
+      "email": "shibinshanty612000@gmail.com",
+      "password": "1323",
+      "id": 2
+    },
+    {
+      "name": "SREEJITH  K M",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "cart": []
+}

@@ -1,0 +1,76 @@
+<div>
+  <div *ngIf="!showLogin">
+    <h1>User Signup</h1>
+    <form
+      #userSignUp="ngForm"
+      class="ax-form"
+      (ngSubmit)="signUp(userSignUp.value)"
+    >
+      <input
+        type="text"
+        class="ax-form__input"
+        name="name"
+        placeholder="Enter User Name"
+        ngModel
+      />
+      <input
+        type="text"
+        class="ax-form__input"
+        name="email"
+        placeholder="Enter User Email"
+        ngModel
+      /><input
+        type="password"
+        class="ax-form__input"
+        name="password"
+        placeholder="Enter User Password"
+        ngModel
+      />
+      <button class="ax-form__button">Sign Up</button>
+      <p>Already Have Account ? <a (click)="openLogin()">Click Here</a></p>
+    </form>
+  </div>
+  <div *ngIf="showLogin" class="login">
+    <h1>User Login</h1>
+    <form
+      #userLogin="ngForm"
+      class="ax-form"
+      (ngSubmit)="login(userLogin.value)"
+    >
+      <p style="color: red;">{{ authError }}</p>
+      <input
+        type="text"
+        class="ax-form__input"
+        name="email"
+        placeholder="Enter User Email"
+        ngModel
+        email
+        #email="ngModel"
+        required
+      />
+      <p>
+        <span *ngIf="email.invalid && email.touched"
+          >Please enter valid input</span
+        >
+      </p>
+      <input
+        type="password"
+        class="ax-form__input"
+        name="password"
+        placeholder="Enter User Password"
+        ngModel
+        minlength="2"
+        maxlength="20"
+        #password="ngModel"
+        required
+      />
+      <p>
+        <span *ngIf="password.invalid && password.touched"
+          >Please enter a valid password</span
+        >
+      </p>
+      <button [disabled]="userLogin.invalid" class="ax-form__button">Login</button>
+      <p>Want to Create Account ? <a (click)="openSignUp()">Click Here</a></p>
+    </form>
+  </div>
+</div>

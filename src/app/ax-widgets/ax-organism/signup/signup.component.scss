@@ -1,0 +1,33 @@
+.ax-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+
+  &__input {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    padding-left: 15px;
+    color: blueviolet;
+  }
+  &__button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+  }
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: blueviolet;
+  text-align: center;
+}
+a{
+    color: blueviolet;
+    cursor: pointer;
+}
+span{
+  color: red;
+}

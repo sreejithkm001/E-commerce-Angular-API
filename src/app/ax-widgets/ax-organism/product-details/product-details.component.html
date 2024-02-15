@@ -1,0 +1,36 @@
+<div class="row ax-product" *ngIf="productData">
+  <div class="col-sm-6">
+    <img class="ax-product__img" src="{{ productData.image }}" alt="" />
+  </div>
+  <div class="col-sm-6">
+    <div class="details">
+      <h1>{{ productData.name }}</h1>
+      <h3>Price : {{ productData.price }}</h3>
+      <div>
+        Color :
+        <h3
+          [style.backgroundColor]="productData.color"
+          class="ax-product__color"
+        ></h3>
+      </div>
+      <h6>Category : {{ productData.category }}</h6>
+      <h6>Description : {{ productData.description }}</h6>
+      <button routerLink="/checkout" class="ax-product__button">Buy Now</button>
+      <button
+        *ngIf="removeCart"
+        class="ax-product__button"
+        (click)="removeToCart(productData.id)"
+      >
+        Remove to Cart
+      </button>
+      <button *ngIf="!removeCart" class="ax-product__button" (click)="addToCart()">
+        Add to Cart
+      </button>
+      <div class="ax-product__quantity">
+        <button (click)="handleQuantity('min')">-</button>
+        <input type="text" value="{{ productQuantity }}" />
+        <button (click)="handleQuantity('plus')">+</button>
+      </div>
+    </div>
+  </div>
+</div>

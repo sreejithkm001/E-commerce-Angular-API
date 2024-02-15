@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-3" *ngFor="let item of trendyProducts">
+    <div class="ax-product">
+      <img routerLink="/details/{{ item.id }}" src="{{ item.image }}" alt="" />
+      <div class="ax-product__details">
+        <h6 class="ax-product__name">{{ item.name }}</h6>
+        <div class="ax-product__price">
+          <h6>Price:{{ item.price }}</h6>
+        </div>
+        <div class="ax-product__color">
+          <h6>Color:{{ item.color }}</h6>
+        </div>
+      </div>
+      <div class="ax-product__footer">
+        <a routerLink="/details/{{ item.id }}">View Details</a>
+        <!-- <a  href="">Add to Cart</a> -->
+      </div>
+    </div>
+  </div>
+</div>
